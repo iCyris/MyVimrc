@@ -6,7 +6,7 @@ set wildmenu
 set number                      " Show line numbers
 set ruler                       " Show row and column ruler information
 set mouse=a                     " Use mouse
-map <silent> <C-A> gg v G       " Use Control + A to select all
+map <silent> <C-A> gg v G       " Use <Control> + <A> to select all
 syn on                          " Highlight the syntax
 filetype on                     " Check thr filetype
 filetype indent on
@@ -23,3 +23,4 @@ set laststatus=2                " 2 for yes to show the file status
 set autoread                    " Warn if the file is changed outside
 set listchars=tab:»■,trail:■    " Set the last space on the line as a square
 set list
+inoremap jj <ESC>               " Map the <ESC>
